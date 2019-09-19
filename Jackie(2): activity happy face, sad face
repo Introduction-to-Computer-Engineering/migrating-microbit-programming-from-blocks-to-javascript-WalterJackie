@@ -1,0 +1,21 @@
+//happy face 
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        # . . . #
+        . # # # .
+        . . . . .
+        `)
+})
+
+//sad face
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . . . .
+        . # # # .
+        # . . . #
+        `)
+})
